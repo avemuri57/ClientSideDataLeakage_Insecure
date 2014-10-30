@@ -1,0 +1,16 @@
+<div class="jumbotron text-center">
+	<h1>Sign Up Here!</h1>
+
+	<h2>Sign Up its Free!</h2>
+      <form  >
+        <p><input type="text" name="register" value="" placeholder="Username or Email" ng-model="registerData.uname"></p>
+        <p><input type="password" name="password" value="" placeholder="Password" ng-model="registerData.password"></p>
+        <p>Select an Access Level:<br><select ng-model="registerData.role" >
+        	<option value="user">A Mere Muggle</option>
+        	<option value="admin">A Wizard</option>
+        </select></p>
+ 
+      <p class="submit"><input type="submit" value="Register" ng-click="register()"></p>
+      </form>
+
+</div>
